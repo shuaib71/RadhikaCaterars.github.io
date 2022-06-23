@@ -1,0 +1,368 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(85, 85, 85);
+    /* background-image: url(background_image.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+h1, h2{
+    font-size: 2rem;
+    padding: 3% 0 0 0;
+    color: #fff;
+}
+.subtitle{
+    color: #fff;
+    font-size: large;
+    margin: 0 5% 0 5% ;
+}
+
+.container{
+   text-align: center;
+    width: 100%;
+}
+
+/* Header Part */
+/* header{
+    height: 118px;
+}
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+  }
+  
+.header a {
+    font-family: system-ui;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 18px; 
+    line-height: 40px;
+  }
+  
+.header a.logo {
+    font-size: 3.1rem;
+    font-weight:500;
+    font-family: 'Updock', cursive;
+  }
+  
+@media screen and (max-width: 400px) {
+    .header a {
+      display: block;
+      text-align: center;
+      margin-top: 0%;
+    }
+    
+  } */
+
+/* Navigation Part */
+nav{
+    background-color: rgba(0, 0, 0, 0.315);
+    /* background-color: rgb(54, 52, 52, 0.1); */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+nav a{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 0 10px 0 10px;
+    color: white;
+}
+nav a:hover{
+    text-decoration: underline;
+    background-color: rgba(237, 224, 224, 0.3);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* nav Style end */
+
+/* top main part (lat's meet) */
+main{
+    color: white;
+    /* padding: 0px 0px 0px 0px; */
+}
+/* main p{
+    margin-bottom: 30px;
+} */
+main a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.164);
+    border-radius: 10px;
+    margin: 2%;
+    font-size: 18px;
+}
+/* .reserve a{
+    padding: 10px;
+    margin: 2%;
+    font-size: 18px;
+}
+.reserve a:hover{
+    color: white;
+    background-color: rgba(237, 224, 224, 0.3);
+} */
+/* top main part (lat's meet) */
+
+/* Our services Cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin: .75%;
+    text-align: center;
+    font-family: arial;
+    float: none;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  .cardTitle{
+      color: rgb(204, 201, 201);
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 24px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+/* our services style end */
+
+/* feadback form */
+.feadbackForm, .contactForm {
+    border-radius: 5px;
+    padding: 40px;
+}
+
+input[type=name], input[type=email], input[type=tel], 
+input[type=datetime-local], input[type=number],
+ textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 6px 0 16px 0;
+    resize: vertical;
+    font-weight: 500;
+    font-size: 18px;
+  }
+input[type=submit], button[type=submit] {
+    background-color: rgba(237, 224, 224, 0.3);
+    color: white;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: larger;
+  }
+input[type=submit]:hover {
+    background-color: rgba(0, 0, 0, 0.315);
+    color:darkseagreen;
+  }
+/* feadback form style end */
+
+
+/* Footer Section */
+footer{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.315);
+    padding: 25px 0 20px 0;
+    margin: 100px 0 0 0;
+    text-align: center;
+    font-size: medium;
+}
+footer a{
+    color: #fff;
+    font-size: large;
+    text-decoration: none;
+}
+
+footer p{
+    font-size: small;
+}
+/* footer style end */
+
+@media (max-width: 768px) {
+    .container{
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    nav{
+        display: inline-block;
+    }
+    /* nav a{
+        display: block;
+    } */
+    main{
+        width: 100%;
+        padding: 0%;
+    }
+    /* main a{
+        margin-bottom: 10px;
+    } */
+    /* iframe{
+        margin-top: 20px;
+        width: fit-content;
+    } */
+    .about{
+        padding: 0%;
+    }
+    .img{
+        padding: 20%;
+    }
+}
+@media (max-width: 528px) {
+    nav{
+        display: inline-block;
+        width: 100%;
+        padding: 0%;
+    }
+    nav a{
+        display: block;
+        padding: 5px;
+    }
+    main{
+        padding: 20px 40px 20px 40px;
+    }
+    .img{
+        width: 100%;
+    }
+    .input-group{
+        display:block;
+        
+    }
+    .choose{
+        width: auto;
+        padding-right: 200px;
+    }
+    .spacer{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .form-group{
+        padding: 0;
+    }
+    
+}
+@media (max-width: 442px) {
+    nav{
+        display: inline-block;
+        width: 100%;
+        padding: 0%;
+    }
+    nav a{
+        display: block;
+        padding: 5px;
+    }
+    main{
+        padding: 20px 40px 20px 40px;
+    }
+    .img{
+        width: 100%;
+    }
+}
+
+/* .col-sm-4{
+    padding: 2000px;
+} */
+/* .btn-default{
+    background-color: rgba(0, 0, 0, 0.315);
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 30%;
+} */
+
+/* contact */
+/* #cname, #cemail, #cphone, #cmsg{
+    text-align: center;
+    padding-right: 30%;
+    padding-left: 30%;
+    border: 0.5em solid;
+} */
+/* .about_img{
+    width: 4000px;
+} */
+
+
+/* About Us */
+.clearfix{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.about{
+    color: white;
+}
+/* .img{
+    text-align: center;  
+    padding: 50px 300px 100px 300px;
+} */
+.para{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:italic;
+    font-weight: 400;
+    font-size:x-large;
+}
+p .para{
+    font-size: large;
+}
+
+/* Menu Style */
+/* #menuBg{
+    background-color: #ededed;
+} */
+.w3-col{
+    text-align:left;
+    color: white;
+}
+
+/* gallary style */
+.form-group{
+    padding: 10px 100px 10px 100px;
+}
+.upload{
+    border: 0.5em solid;
+    padding: 10px 0px 20px 0px;
+}
+.input-group{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
